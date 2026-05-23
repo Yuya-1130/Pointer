@@ -1,5 +1,6 @@
 ﻿
 #include <stdio.h>
+#include <iostream>
 
 int main()
 {
@@ -25,6 +26,8 @@ int main()
 
 		Counter = 4;
 		printf("Counter が保持する値は %d です\n", Counter);
+
+		std::cout << "Counter = " << Counter << std::endl; // 4と表示される
 	}
 
 }
