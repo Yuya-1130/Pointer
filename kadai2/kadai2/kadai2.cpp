@@ -18,6 +18,7 @@ int main(){
 	printf("ポインタのインクリメントで同じ配列を表示する:\n");
 
 	for(int i = 0; i < 6; i++) {
-		printf("%d ", *(p + i));
+		printf("%d ", *p);
+		p++;
 	}
 }
