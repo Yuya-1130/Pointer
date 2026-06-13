@@ -14,7 +14,7 @@ int main()
 		int* Pointer = &Point;
 
 		*Pointer = 2;
-		printf("Pointer が保持する値は %d です\n", *Pointer);
+		printf("Pointer が保持する値は %d です\n", Point);
 	 
    }
 	printf("参照版の値を入れ替えるプログラム\n");
@@ -25,7 +25,7 @@ int main()
 		int& Counter = Count;
 
 		Counter = 4;
-		printf("Counter が保持する値は %d です\n", Counter);
+		printf("Counter が保持する値は %d です\n", Count);
 
 		std::cout << "Counter = " << Counter << std::endl; // 4と表示される
 	}
